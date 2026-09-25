@@ -1,0 +1,38 @@
+# Ignore testing_func directory
+testing_func/
+
+# =========================
+# MATLAB / Simulink
+# =========================
+
+# Simulink cache
+slprj/
+*.slxc
+
+# MATLAB autosave / temporary files
+*.asv
+*.m~
+*.autosave
+
+# Simulink generated code
+*_grt_rtw/
+*_ert_rtw/
+*_rtw/
+codegen/
+
+# =========================
+# QUARC
+# =========================
+
+# win64 folders
+**/win64/
+
+# QUARC / generated files containing win64
+*win64*
+
+# =========================
+# OS / editor junk
+# =========================
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+# Default text handling
+* text=auto eol=lf
+
+# MATLAB source files
+*.m text eol=lf
+
+# Markdown / documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Data files
+*.csv text eol=lf
+
+# MATLAB binary files
+*.mat binary
+*.mlx binary
+*.fig binary
+
+# Simulink files
+*.slx binary
+*.mdl text eol=lf
